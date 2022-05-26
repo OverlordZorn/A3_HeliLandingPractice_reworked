@@ -1,0 +1,26 @@
+
+	class KS
+	{
+		class randomFunctions
+		{
+			file = "functions";
+			class skipBriefing {preInit = 1};
+			class onKeyDown {};
+			class createTask {};
+			class setupPlayer {};
+			class setupVehicle {};
+			class teleportBack {};
+			class volumeControl {};
+			//class moveOnTop {};
+			class getSafePos {};
+			class getLocations {};
+			class setupRespawnLogic {};
+			class respawnVehicle {};
+			class instantTakeOff {};
+			class addActionTakeOff {};
+			class viewDistanceControl {};
+			class updateBlockMarkers {};
+			//class spawnAirVehicleOnGround {};
+			//class unitActionLandingGear {};
+		};
+	};

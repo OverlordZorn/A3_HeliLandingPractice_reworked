@@ -1,0 +1,36 @@
+version=54;
+name="Heli Practice Starting area";
+author="Zorn";
+category="EdSubcat_Default";
+requiredAddons[]=
+{
+	"A3_Characters_F",
+	"A3_Air_F_Heli_Light_01",
+	"A3_Structures_F_Tank_Military_RepairDepot",
+	"A3_Supplies_F_Heli_Slingload",
+	"ace_refuel",
+	"A3_Props_F_Tank_Military_TankAcc",
+	"A3_Structures_F_Items_Vessels",
+	"ace_cargo",
+	"A3_Misc_F_Helpers",
+	"A3_Structures_F_Heli_VR_Helpers",
+	"A3_Props_F_Orange_Humanitarian_Supplies",
+	"A3_Structures_F_EPA_Items_Medical",
+	"A3_Props_F_Orange_Humanitarian_Camps",
+	"A3_Props_F_Orange_Humanitarian_Garbage",
+	"A3_Ui_F",
+	"A3_Modules_F",
+	"ace_realisticnames",
+	"acre_sys_intercom",
+	"A3_Structures_F_System",
+	"A3_Structures_F_Argo_Decals_Horizontal",
+	"A3_Structures_F_Enoch_Military_Camonets",
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Structures_F_Mil_Helipads",
+	"A3_Structures_F_Bootcamp_VR_Helpers",
+	"A3_Props_F_Enoch_Military_Equipment",
+	"A3_Structures_F_Enoch_Military_Camps",
+	"A3_Structures_F_Wrecks",
+	"cba_xeh",
+	"A3_Structures_F_Heli_Items_Airport"
+};
