@@ -1,0 +1,185 @@
+version=54;
+center[]={7284.3311,2.3345692,7412.9375};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Heli Practice Starting area";
+		class Entities
+		{
+			items=6;
+			class Item0
+			{
+				dataType="Trigger";
+				position[]={-8.9052734,0.0037169456,-4.5097656};
+				angle=3.90552;
+				class Attributes
+				{
+					name="repair_station";
+					condition="this && {!isNull objectParent player} && {isTouchingground objectParent player} && {damage objectParent player > 0}";
+					onActivation="{ _x setDamage 0 } forEach thisList;";
+					sizeA=15;
+					sizeB=15;
+					sizeC=5;
+					timeout[]={3,3,3};
+					interuptable=1;
+					repeatable=1;
+					activationBy="ANYPLAYER";
+					effectSound="FD_Target_PopUp_Large_F";
+				};
+				id=3;
+				type="EmptyDetectorArea10x10";
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.1186523,3.0512617,10.777344};
+					angles[]={6.272521,5.4800215,6.2671871};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="this setRepairCargo 0;";
+					createAsSimpleObject=1;
+					disableSimulation=1;
+				};
+				id=5;
+				type="Land_RepairDepot_01_green_F";
+				atlOffset=-0.0017089844;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.2895508,4.2381372,8.5380859};
+					angles[]={0,0.7678417,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+				};
+				id=10;
+				type="UserTexture1m_F";
+				atlOffset=1.2034988;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ObjectTextureCustom0";
+						expression="_this setObjectTextureGlobal [0,_value]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="a3\ui_f\data\igui\cfg\actions\repair_ca.paa";
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-9.269043,0.87217379,-4.9023438};
+					angles[]={4.712389,0,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+				};
+				id=12;
+				type="Sign_Circle_F";
+				atlOffset=0.89652252;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ObjectTextureCustom0";
+						expression="_this setObjectTextureGlobal [0,_value]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="#(argb,8,8,3)color(0.5,0.5,0.5,0.01,ca)";
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item4
+			{
+				dataType="Marker";
+				position[]={-8.9511719,0,-4.4892578};
+				name="marker_4";
+				markerType="ELLIPSE";
+				type="rectangle";
+				colorName="ColorKhaki";
+				fillName="SolidBorder";
+				a=15;
+				b=15;
+				angle=134.76097;
+				drawBorder=1;
+				id=28;
+			};
+			class Item5
+			{
+				dataType="Marker";
+				position[]={13.755859,0.17301989,-5.4423828};
+				name="marker_5";
+				text="Vehicle Repair";
+				type="mil_dot";
+				colorName="ColorBlack";
+				id=29;
+			};
+		};
+		id=125;
+		atlOffset=0.046185732;
+	};
+};

@@ -1,0 +1,11 @@
+version=54;
+name="HeliLanding_6_Repair";
+author="Pulsar Neutron Star";
+category="EdSubcat_Default";
+requiredAddons[]=
+{
+	"A3_Structures_F_Tank_Military_RepairDepot",
+	"A3_Misc_F_Helpers",
+	"A3_Structures_F_Heli_VR_Helpers",
+	"A3_Ui_F"
+};

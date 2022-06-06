@@ -1,0 +1,19 @@
+version=54;
+name="HeliLanding_4_Medical";
+author="Pulsar Neutron Star";
+category="EdSubcat_Default";
+requiredAddons[]=
+{
+	"A3_Supplies_F_Heli_Slingload",
+	"A3_Props_F_Orange_Humanitarian_Supplies",
+	"A3_Structures_F_EPA_Items_Medical",
+	"A3_Props_F_Orange_Humanitarian_Camps",
+	"A3_Props_F_Orange_Humanitarian_Garbage",
+	"A3_Misc_F_Helpers",
+	"A3_Ui_F",
+	"A3_Modules_F",
+	"A3_Structures_F_System",
+	"A3_Structures_F_Enoch_Military_Camonets",
+	"A3_Supplies_F_Heli_CargoNets",
+	"A3_Structures_F_Bootcamp_VR_Helpers"
+};

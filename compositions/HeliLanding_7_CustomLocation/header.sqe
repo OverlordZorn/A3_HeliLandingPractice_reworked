@@ -1,0 +1,8 @@
+version=54;
+name="HeliLanding_7_CustomLocation";
+author="Pulsar Neutron Star";
+category="EdSubcat_Default";
+requiredAddons[]=
+{
+	"A3_Modules_F"
+};

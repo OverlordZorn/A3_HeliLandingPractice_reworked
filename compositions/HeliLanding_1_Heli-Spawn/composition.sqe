@@ -1,0 +1,400 @@
+version=54;
+center[]={6840.1782,-3.8568962,7310.8232};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="HeliLanding_2_Heli-Spawn";
+		class Entities
+		{
+			items=7;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-8.0888672,8.0312843,3.9746094};
+					angles[]={-0,2.4923086,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					createAsSimpleObject=1;
+					disableSimulation=1;
+				};
+				id=373;
+				type="Land_PitotTubeCover_01_F";
+				atlOffset=0.00040435791;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.7216797,7.5844336,4.4414063};
+					angles[]={0,5.4026451,0};
+				};
+				side="Empty";
+				class Attributes
+				{
+					name="heliSpawnTable_0";
+					createAsSimpleObject=1;
+					disableSimulation=1;
+				};
+				id=367;
+				type="Land_CampingTable_white_F";
+				atlOffset=0.65598559;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=1;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.7089844,8.1692982,4.4677734};
+					angles[]={-0,2.2610526,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					init="this setObjectTexture [1, ""\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\heli_ca.paa""];" \n "this addAction[""Virtual Vehicle Spawner"",VVS_fnc_openVVS,[""heliSpawnMarker_0"",""Air""]];";
+					name="heliSpawnLaptop_0";
+					disableSimulation=1;
+				};
+				id=368;
+				type="Land_Laptop_03_olive_F";
+				atlOffset=0.013404846;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="ObjectTextureCustom1";
+						expression="_this setObjectTextureGlobal [1,_value]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-9.5317383,3.4289153,5.8857422};
+					angles[]={-0,5.4026451,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					name="heliSpawnBase_0";
+					disableSimulation=1;
+				};
+				id=369;
+				type="CargoPlaftorm_01_green_F";
+				atlOffset=-6.5168962;
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Panel_3_rotate";
+						expression="_this animateSource ['Panel_3_rotate_source',rad(_value*180),true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Leg_1_move";
+						expression="_this animateSource ['Leg_1_move_source',_value*6.541,true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99684006;
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="Leg_2_move";
+						expression="_this animateSource ['Leg_2_move_source',_value*6.541,true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99684018;
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="Panel_2_rotate";
+						expression="_this animateSource ['Panel_2_rotate_source',rad(_value*180),true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.63;
+							};
+						};
+					};
+					class Attribute4
+					{
+						property="Leg_4_move";
+						expression="_this animateSource ['Leg_4_move_source',_value*6.541,true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99684018;
+							};
+						};
+					};
+					class Attribute5
+					{
+						property="Leg_3_move";
+						expression="_this animateSource ['Leg_3_move_source',_value*6.541,true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99684018;
+							};
+						};
+					};
+					class Attribute6
+					{
+						property="Panel_1_rotate";
+						expression="_this animateSource ['Panel_1_rotate_source',rad(_value*180),true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.63;
+							};
+						};
+					};
+					class Attribute7
+					{
+						property="allowDamage";
+						expression="_this allowdamage _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"BOOL"
+									};
+								};
+								value=0;
+							};
+						};
+					};
+					class Attribute8
+					{
+						property="Panel_4_rotate";
+						expression="_this animateSource ['Panel_4_rotate_source',rad(_value*180),true]";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.63;
+							};
+						};
+					};
+					nAttributes=9;
+				};
+			};
+			class Item4
+			{
+				dataType="Marker";
+				position[]={9.0170898,6.5168962,-9.1254883};
+				name="heliSpawnMarker_0";
+				text="Heli Spawn";
+				markerType="RECTANGLE";
+				type="rectangle";
+				colorName="ColorWhite";
+				fillName="SolidBorder";
+				a=5;
+				b=15;
+				angle=130.8985;
+				drawBorder=1;
+				id=370;
+			};
+			class Item5
+			{
+				dataType="Marker";
+				position[]={14.46875,6.5168962,-0.0083007813};
+				name="marker_7";
+				text="Heli Spawn";
+				type="mil_dot";
+				colorName="ColorBlack";
+				angle=175.07076;
+				id=371;
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={9.5605469,6.5168962,-9.6391602};
+					angles[]={-0,2.2846112,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=372;
+				type="Land_HelipadSquare_F";
+			};
+		};
+		id=375;
+		atlOffset=-0.33915043;
+	};
+};

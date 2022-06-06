@@ -1,0 +1,24 @@
+version=54;
+center[]={7168.8486,2.6600001,7126.313};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Heli Practice Starting area";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Logic";
+				init="0 = createLocation [""Strategic"", position this, 120, 120];";
+				id=121;
+				type="LocationArea_F";
+			};
+		};
+		id=125;
+		atlOffset=0.046185732;
+	};
+};

@@ -1,0 +1,8 @@
+version=54;
+name="HeliLanding_8_Savezone_IMPORTANT";
+author="Pulsar Neutron Star";
+category="EdSubcat_Default";
+requiredAddons[]=
+{
+	"A3_Ui_F"
+};

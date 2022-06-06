@@ -1,0 +1,33 @@
+version=54;
+center[]={7115.1294,2.6600001,7250.4688};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="HeliLanding_2_Heli-Spawn";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Marker";
+				position[]={0,0,0};
+				name="KS_HLP_safeZone_0";
+				text="DO NOT DELETE!";
+				markerType="RECTANGLE";
+				type="ellipse";
+				colorName="ColorWhite";
+				fillName="Border";
+				a=300;
+				b=150;
+				angle=314.9978;
+				drawBorder=1;
+				id=374;
+			};
+		};
+		id=375;
+		atlOffset=0.78831363;
+	};
+};
