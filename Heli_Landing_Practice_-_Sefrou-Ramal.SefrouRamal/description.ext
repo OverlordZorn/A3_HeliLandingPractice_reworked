@@ -1,0 +1,53 @@
+author = "KiloSwiss";
+onLoadName = "Heli Landing Practice";
+onLoadMission = "A simple mission to practice helicopter combat landings at random destinations across the map.";
+loadScreen = "icons\loadScreenEnoch.jpg";
+
+//allowFunctionsRecompile = 1;
+enableDebugConsole = 2;
+disabledAI = true;
+
+class Header
+{
+	gameType = Sandbox; // MP mission type
+};
+
+#include "VVS\menu.h"
+
+class CfgFunctions
+{
+	#include "VVS\Functions.h"
+	class KS
+	{
+		class randomFunctions
+		{
+			file = "functions";
+			class skipBriefing {preInit = 1};
+			class onKeyDown {};
+			class createTask {};
+			class setupPlayer {};
+			class setupVehicle {};
+			class teleportBack {};
+			class volumeControl {};
+			//class moveOnTop {};
+			class getSafePos {};
+			class getLocations {};
+			class setupRespawnLogic {};
+			class respawnVehicle {};
+			class instantTakeOff {};
+			class addActionTakeOff {};
+			class viewDistanceControl {};
+			class updateBlockMarkers {};
+			//class spawnAirVehicleOnGround {};
+			//class unitActionLandingGear {};
+		};
+	};
+};
+
+class CfgTaskTypes
+{
+	class Land
+	{
+		icon = "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\land_ca.paa";
+	};
+};
