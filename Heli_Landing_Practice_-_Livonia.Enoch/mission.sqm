@@ -8,7 +8,7 @@ class EditorData
 	toggles=1537;
 	class ItemIDProvider
 	{
-		nextID=312;
+		nextID=333;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4012.5042,93.160004,10173.994};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={7344.3662,711.87854,2463.5833};
+		dir[]={0.050008465,-0.29754135,-0.95347744};
+		up[]={0.015586944,0.95468724,-0.29719251};
+		aside[]={-0.99870181,1.5925616e-007,-0.05237896};
 	};
 };
 binarizationWanted=0;
@@ -30,10 +30,8 @@ addons[]=
 	"A3_Air_F_Heli_Light_01",
 	"A3_Structures_F_Tank_Military_RepairDepot",
 	"A3_Supplies_F_Heli_Slingload",
-	"ace_refuel",
 	"A3_Props_F_Tank_Military_TankAcc",
 	"A3_Structures_F_Items_Vessels",
-	"ace_cargo",
 	"A3_Misc_F_Helpers",
 	"A3_Structures_F_Heli_VR_Helpers",
 	"A3_Props_F_Orange_Humanitarian_Supplies",
@@ -42,8 +40,6 @@ addons[]=
 	"A3_Props_F_Orange_Humanitarian_Garbage",
 	"A3_Ui_F",
 	"A3_Modules_F",
-	"ace_realisticnames",
-	"acre_sys_intercom",
 	"A3_Structures_F_System",
 	"A3_Structures_F_Argo_Decals_Horizontal",
 	"A3_Structures_F_Enoch_Military_Camonets",
@@ -53,14 +49,13 @@ addons[]=
 	"A3_Props_F_Enoch_Military_Equipment",
 	"A3_Structures_F_Enoch_Military_Camps",
 	"A3_Structures_F_Wrecks",
-	"cba_xeh",
 	"A3_Structures_F_Heli_Items_Airport"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=18;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -91,117 +86,96 @@ class AddonsMetaData
 		};
 		class Item4
 		{
-			className="ace_refuel";
-			name="ACE3 - Refuel";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item5
-		{
 			className="A3_Props_F_Tank";
 			name="Arma 3 Tank - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item5
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
-		{
-			className="ace_cargo";
-			name="ACE3 - Cargo";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item8
+		class Item6
 		{
 			className="A3_Misc_F";
 			name="Arma 3 - 3D Aids and Helpers";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
+		class Item7
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item8
 		{
 			className="A3_Props_F_Orange";
 			name="Arma 3 Orange - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item9
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
+		class Item10
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item13
+		class Item11
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
-		{
-			className="acre_sys_intercom";
-			name="ACRE2 - Vehicle Intercom";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item15
+		class Item12
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
+		class Item13
 		{
 			className="A3_Structures_F_Enoch_Military";
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item14
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item15
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item16
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item17
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
@@ -322,6 +296,7 @@ class Mission
 		resistanceEast=1;
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
+		startFog=0.30356315;
 		startWind=0.1;
 		startWaves=0.1;
 		forecastWeather=0.20072176;
@@ -332,15 +307,16 @@ class Mission
 		year=2035;
 		month=6;
 		day=24;
-		minute=12;
-		startFogBase=250;
+		hour=3;
+		minute=20;
+		startFogBase=166.00195;
 		forecastFogBase=250;
-		startFogDecay=0.017999999;
+		startFogDecay=0.021779513;
 		forecastFogDecay=0.017999999;
 	};
 	class Entities
 	{
-		items=116;
+		items=137;
 		class Item0
 		{
 			dataType="Group";
@@ -1285,7 +1261,6 @@ class Mission
 			};
 			id=39;
 			type="Land_Stretcher_01_olive_F";
-			atlOffset=7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6460,6 +6435,277 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item116
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7656.2295,110.15002,2327.4727};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=312;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item117
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6489.2783,222.68001,3815.1309};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=313;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item118
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5701.2432,249.57002,3769.4375};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=314;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item119
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={7837.0566,76.150169,5838.5034};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=315;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item120
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4855.7612,177.6608,855.68304};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=316;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item121
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3009.9795,277.60986,1132.5867};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=317;
+			type="LocationArea_F";
+		};
+		class Item122
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={530.09241,439.94843,1102.7394};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=318;
+			type="LocationArea_F";
+		};
+		class Item123
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1666.2291,199.34001,3653.5454};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=319;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item124
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9056.2939,170.23141,4392.5884};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=320;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item125
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9901.5557,181.66037,3799.1155};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=321;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item126
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9893.8691,180.80002,3888.8662};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=322;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item127
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11573.212,42.479393,393.3616};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=323;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item128
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11337.781,176.77649,4183.8369};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=324;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item129
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11568.689,73.010017,7089.2427};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=325;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item130
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11050.377,15.490015,8998.8682};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=326;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item131
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={11339.305,12.674359,9432.873};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=327;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item132
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={10683.492,7.5839801,11123.163};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=328;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item133
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12318.8,0.086209178,10856.195};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=329;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item134
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={9301.9629,16.583157,11175.548};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=330;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item135
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8157.0293,37.110016,10855.938};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=331;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
+		};
+		class Item136
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3087.1936,64.124664,6809.8989};
+				angles[]={6.1261058,0,0.2035403};
+			};
+			init="0 = createLocation [""Strategic"", position this, 100, 100];";
+			id=332;
+			type="LocationArea_F";
+			atlOffset=1.5258789e-005;
 		};
 	};
 	class Connections
