@@ -7,6 +7,9 @@ I thorougly enjoy to just fly around places, explore the Areas, maybe listening 
 This is an effort to take KiloSwiss' `HeliLandingPractice` Mission and bring it to more Maps + do minor creature comfort adaptions. 
 
 
+Original Mission: https://steamcommunity.com/sharedfiles/filedetails/?id=1962268953
+KiloSwiss: https://steamcommunity.com/id/kiloswiss
+
 ## Future Plans and Ideas
 
 - Fix the Vehicle Detection for the VSS
