@@ -4,7 +4,7 @@ enableSaving [false, false];
 // - - -
 
 // Enter your safe zone marker names here. No LZ will ever be within those markers.
-KS_HLP_staticBlockMarkers = ["KS_HLP_safeZone_0","KS_HLP_safeZone_1","KS_HLP_safeZone_2"];
+KS_HLP_staticBlockMarkers = ["KS_HLP_safeZone_0","KS_HLP_safeZone_1","KS_HLP_safeZone_2";"KS_HLP_safeZone_3";"KS_HLP_safeZone_4"];
 
 // Maximum number of old LZ positions to block when searching for a new LZ. Min: 0 / Max: 10 / Auto: -1
 KS_HLP_maxBlockMarkers = -1;

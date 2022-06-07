@@ -18,13 +18,13 @@ if ( count KS_HLP_staticBlockMarkers > 0 ) then
 KS_HLP_Locations = _locations;
 
 //To create coloured markers on all found locations use:
-//private["_worldRadius","_worldCenterPos","_allLocations","_marker"];
-//_worldRadius = (getNumber(configFile >> "CfgWorlds" >> worldName >> "MapSize")/2);
-//_worldCenterPos = [ _worldRadius, _worldRadius, 0];
+// private["_worldRadius","_worldCenterPos","_allLocations","_marker"];
+// _worldRadius = (getNumber(configFile >> "CfgWorlds" >> worldName >> "MapSize")/2);
+// _worldCenterPos = [ _worldRadius, _worldRadius, 0];
 //
 if ( _drawMarkers ) then
 {
-	//private _allLocations = nearestLocations [KS_worldCenter, ["NameCityCapital","NameCity","NameVillage","NameLocal","CityCenter","Airport","NameMarine","Strategic","ViewPoint","RockArea","StrongpointArea","FlatArea","FlatAreaCity","FlatAreaCitySmall"], KS_outerWorldRadius];
+	// private _allLocations = nearestLocations [KS_worldCenter, ["NameCityCapital","NameCity","NameVillage","NameLocal","CityCenter","Airport","NameMarine","Strategic","ViewPoint","RockArea","StrongpointArea","FlatArea","FlatAreaCity","FlatAreaCitySmall"], KS_outerWorldRadius];
 	{
 		private ["_marker","_markerName","_marker2","_markerName2"];
 		
