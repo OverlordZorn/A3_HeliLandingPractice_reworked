@@ -13,14 +13,11 @@ KiloSwiss: https://steamcommunity.com/id/kiloswiss
 
 ## Future Plans and Ideas
 
-- Fix the Vehicle Detection for the VSS
-- Add a way to control the max distance for new Landing Zones.
-
+- Add a way to control the max distance from player for new Landing Zones - Flying from one corner of the map to the opposite one can get tiring after a while.
 
 ## Known Issues
 
-CDLC Global Mobillisation Helicopter Assets arent propperly detected by the Vehicle Spawner Script.
-
+- After extended playtime, the helicopter gets immune to damage.
 
 ## Feel Free to help!
 
@@ -28,4 +25,13 @@ Since Im a novice with SQF and coding in general, im happy for everyone who want
 
 ## Found a Problem with the Mission?
 
-Create a new issue, explain the 
+Create a new issue, explain the problem - Ideally with locations or RPT's attached.
+
+## Want to suggest a map to be ported?
+
+Create a Issue and call it map request. Add the link to the steam workshop page. I'll take a look at it.
+
+Alternatively you can port it yourself, its fairly easy. I'll add a guide if there is enough interest.
+
+## You have a modded helicopter that isnt automatically detected by the `Virtual Vehicle Spawner`?
+`VVS/functions/fn_buildCfg.sqf` at line 63 and 86 needs the `vehicleClass` added into the array
