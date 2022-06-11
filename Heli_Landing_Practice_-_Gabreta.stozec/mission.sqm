@@ -12,18 +12,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=7;
+		nextID=8;
 	};
 	class Camera
 	{
-		pos[]={10635.438,32.49612,9175.8721};
-		dir[]={0.81081194,-0.53096133,-0.24660873};
-		up[]={0.50797969,0.84738922,-0.15450209};
-		aside[]={-0.29101023,1.1467491e-006,-0.95679939};
+		pos[]={10919.796,574.67963,9213.1924};
+		dir[]={-0.30762339,-0.62365347,0.71862894};
+		up[]={-0.24542689,0.78169966,0.57333338};
+		aside[]={0.91931343,6.6123903e-008,0.39353043};
 	};
 };
 binarizationWanted=0;
-sourceName="Heli%20Landing%20Practice%20-%20Gabreta";
+sourceName="Heli_Landing_Practice_-_Gabreta";
 addons[]=
 {
 	"A3_Structures_F_Tank_Military_RepairDepot",
@@ -1287,7 +1287,7 @@ class Mission
 					fillName="Border";
 					a=321.19363;
 					b=473.88315;
-					angle=221.51257;
+					angle=221.51254;
 					drawBorder=1;
 					id=32;
 					atlOffset=-4.0477448;
@@ -5791,7 +5791,6 @@ class Mission
 					init="0 = createLocation [""Strategic"", position this, 120, 120];";
 					id=223;
 					type="LocationArea_F";
-					atlOffset=0.087181091;
 				};
 				class Item108
 				{
@@ -6458,7 +6457,7 @@ class Mission
 					init="0 = createLocation [""Strategic"", position this, 120, 120];";
 					id=284;
 					type="LocationArea_F";
-					atlOffset=10.277023;
+					atlOffset=0.36833954;
 				};
 				class Item168
 				{
