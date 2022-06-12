@@ -47,9 +47,9 @@ In case you hit a tree or end up in a powerline, dont worry - respawn is swift, 
 
 ## Contribute!
 ### Future Plans and Ideas
+- Add Weather and Timemaschine
 - Add a control to adjust the max distance from player to new Landing Zones. - Flying from one corner of the map to the opposite one can get tiring after a while.
 - Add a control to adjust the size of the safe LZ. This way people can easily choose if they would like to dare some tighter landing spots.
-
 - Setup a way to add more challenging, predefined LZ's. 
 
 ### Found a Problem? Suggest a map? Add compat for a modded helicopter? 
