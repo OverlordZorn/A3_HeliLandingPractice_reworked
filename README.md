@@ -1,4 +1,4 @@
-# A3_HeliLandingPractice_Rework
+# A3_HeliLandingPractice_Reworked
 Arma 3 - Helicopter Landing Practice Reworked, original by KiloSwiss - Ports to more Maps + minor Adaptations
 
 ## What is this Scenario about?
