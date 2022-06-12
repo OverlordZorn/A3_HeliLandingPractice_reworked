@@ -1,41 +1,79 @@
 # A3_HeliLandingPractice
-Arma 3 - Helicopter Landing Practice Mission, original by KiloSwiss - Ports to more Maps + minor Adaptations
+Arma 3 - Helicopter Landing Practice Reworked, original by KiloSwiss - Ports to more Maps + minor Adaptations
 
-## what is this mission?
+## What is this Scenario about?
 
-Helicopter Landing Practice - a great way to get familiar with a helicopter in arma 3, explore a new terrain or just chill out while listening to music or a podcast.
+Its a Helicopter Landing Practice. It provides a great way to get familiar with helicopters in arma 3, explore a new terrain or just chill out while listening to some good tunes or your favorite podcast.
+
+## How does it Works?
+
+You start the mission, walk to the laptop infront of you, select the helicopter from the menu, it will spawn right in front of the Laptop.
+
+Once in the helicopter, you can request a new LZ (Action Menu) and fly there, and land the helicopter. Repeat.
+
+The LZ's are based of the Terrains Location. Within the location it selects a random spot and checks if there is enough space for the helicopter to land.
+
+In case you hit a tree or end up in a powerline, dont worry - respawn is swift, the helicopter will wait for and is ready to go!
 
 
-You start the mission, walk to a laptop, select the helicopter you want to fly.
 
-Once in the helicopter, you can request a new LZ and fly there, and land the helicopter. Repeat.
+## Ported Scenarios
 
-Fast respawn in cash you crash.
+### Official Terrains
+- Altis
+- Stratis
+- Tanoa (Apex DLC)
+- Livonia (Contact DLC)
+- Werferlingen Summer + Winter (Global Mobilisation C.DLC)
+- Cam Lao Nam (SOG:PF C.DLC)
+- Khe Sanh (SOG:PF C.DLC)
+- Sefrou-Ramal (Western Saharah C.DLC)
+- Gabreta (CSLA C.DLC)
+- VR (Debug Environment, not on steam)
+
+### Modded Terrains
+- Vidda
+- Scottish Highlands
+- Lythium
+- Fallujah
+
+### Original Scenarios by [KiloSwiss](https://steamcommunity.com/id/kiloswiss)
+- [Heli Landing Practice - Malden 2035](https://steamcommunity.com/sharedfiles/filedetails/?id=1984807345)
+- [Heli Landing Practice - Livonia](https://steamcommunity.com/sharedfiles/filedetails/?id=1962268953)
 
 
-
-This is an effort to take KiloSwiss' `HeliLandingPractice` Mission and bring it to more maps + do minor creature comfort adaptions. 
-
-
-Original Mission: https://steamcommunity.com/sharedfiles/filedetails/?id=1962268953
-KiloSwiss: https://steamcommunity.com/id/kiloswiss
 
 ## Future Plans and Ideas
-- Add a way to control the max distance from player for new Landing Zones - Flying from one corner of the map to the opposite one can get tiring after a while.
+- Add a control to adjust the max distance from player to new Landing Zones. - Flying from one corner of the map to the opposite one can get tiring after a while.
+- Add a control to adjust the size of the safe LZ. This way people can easily choose if they would like to dare some tighter landing spots.
+
+- Setup a way to add more challenging, predefined LZ's. 
+
 
 ## Known Issues
-- After extended playtime, the helicopter gets immune to damage.
+- Under certain conditions, the helicopter gets immune to damage.
+- Custom placed locations doesnt seem to be detected in the VR Environment? Unsure if its just a bug
 
 ## Feel Free to help!
 Since Im a novice with SQF and coding in general, im happy for everyone who wants to contribute.
 
-## Found a Problem with the Mission?
-Create a new issue, explain the problem - Ideally with locations or RPT's attached.
+## Found a Problem with the Mission? Want to suggest a map to be ported or found a helicopter that isnt detected by the Virtual Vehicle Spawner Script? 
+Create a new issue, select a template provide all needed information.
 
-## Want to suggest a map to be ported?
-Create a Issue and call it map request. Add the link to the steam workshop page. I'll take a look at it.
+## Want to contribute directly?
+Feel free to create a Pull Request with your changes.
 
-Alternatively you can port it yourself, its fairly easy. I'll add a guide if there is enough interest.
+## Sharing is Caring
+I am happy to keep it like KiloSwiss said it himself:
 
-## You have a modded helicopter that isnt automatically detected by the `Virtual Vehicle Spawner`?
-`VVS/functions/fn_buildCfg.sqf` at line 63 and 86 needs the `vehicleClass` added into the array
+    I don't mind other people using, modifying or even redistributing their own versions of whatever I upload to the workshop.
+    It is there for everyone to use.
+    Simply said: Sharing is caring.
+    The only thing I ask for is that people give credit to the original author and carry over existing entries that credit other people in the original work. 
+
+That said, the only one thing I'd like to add is the following:
+Any improvements to help with some bugs, new features or others, I'd kindly ask to add them to this repsoitory as well, so this scenario can grow and everyone can enjoy.
+
+
+
+
