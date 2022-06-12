@@ -8,7 +8,7 @@ Its a Helicopter Landing Practice. It provides a great way to get familiar with 
 ### Why the rework?
 Originally,  this concept only released for Malden and Livonia, but there are many other great terrains in Arma 3. Also noticed that the Global Mobilisation Helicopters havent been detected by the Virtual Vehicle Spawner, therefore I added them to the VVS as well.
 
-## How does it Works?
+## How does it works?
 
 You start the mission, walk to the laptop infront of you, select the helicopter from the menu, it will spawn right in front of the Laptop.
 
