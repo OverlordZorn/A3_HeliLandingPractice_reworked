@@ -3,10 +3,10 @@ Arma 3 - Helicopter Landing Practice Reworked, original by KiloSwiss - Ports to 
 
 ## What is this Scenario about?
 
-Its a Helicopter Landing Practice. It provides a great way to get familiar with helicopters in arma 3, explore a new terrain or just chill out while listening to some good tunes or your favorite podcast.
+Its a Helicopter Landing Practice. It provides a great way to get familiar with helicopters in Arma 3, explore a new terrain or just chill out while listening to some good tunes or your favorite podcast.
 
-## Why the rework?
-The original author provided this concept only for Malden and Livonia, but there are many other great Islands in ArmA3 that would provide a great stage for this scenario. Also noticed that the Global Mobilisation Helicopters havent been detected by the Virtual Vehicle Spawner, therefore I wanted to create a compatibility for them.
+### Why the rework?
+Originally,  this concept only released for Malden and Livonia, but there are many other great terrains in Arma 3. Also noticed that the Global Mobilisation Helicopters havent been detected by the Virtual Vehicle Spawner, therefore I added them to the VVS as well.
 
 ## How does it Works?
 
@@ -32,7 +32,7 @@ In case you hit a tree or end up in a powerline, dont worry - respawn is swift, 
 - Khe Sanh (SOG:PF C.DLC)
 - Sefrou-Ramal (Western Saharah C.DLC)
 - Gabreta (CSLA C.DLC)
-- VR (Debug Environment, not on steam)
+- VR (Debug, not on Steam)
 
 ### Modded Terrains
 - Vidda
@@ -45,26 +45,25 @@ In case you hit a tree or end up in a powerline, dont worry - respawn is swift, 
 - [Heli Landing Practice - Livonia](https://steamcommunity.com/sharedfiles/filedetails/?id=1962268953)
 
 
-
-## Future Plans and Ideas
+## Contribute!
+### Future Plans and Ideas
 - Add a control to adjust the max distance from player to new Landing Zones. - Flying from one corner of the map to the opposite one can get tiring after a while.
 - Add a control to adjust the size of the safe LZ. This way people can easily choose if they would like to dare some tighter landing spots.
 
 - Setup a way to add more challenging, predefined LZ's. 
 
+### Found a Problem? Suggest a map? Add compat for a modded helicopter? 
+Create a new issue, select a template provide all needed information.
 
-## Known Issues
+### Known Issues
 - Under certain conditions, the helicopter gets immune to damage.
 - Custom placed locations doesnt seem to be detected in the VR Environment? Unsure if its just a bug
 
-## Found a Problem? Suggest a map? Add compat for a modded helicopter? 
-Create a new issue, select a template provide all needed information.
-
-## Want to contribute directly?
+### Want to contribute directly?
 Feel free to create a Pull Request with your changes.
 I myself am a novice with SQF and coding in general, im happy for everyone who wants to contribute.
 
-## Sharing is Caring
+#### Sharing is Caring
 I am happy to keep it like KiloSwiss said it himself:
 
 > I don't mind other people using, modifying or even redistributing their own versions of whatever I upload to the workshop.
