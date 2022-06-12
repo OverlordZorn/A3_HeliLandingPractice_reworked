@@ -64,7 +64,7 @@ Feel free to create a Pull Request with your changes.
 I myself am a novice with SQF and coding in general, im happy for everyone who wants to contribute.
 
 #### Sharing is Caring
-I am happy to keep it like KiloSwiss said it himself:
+I am happy to keep it like KiloSwiss has said it himself:
 
 > I don't mind other people using, modifying or even redistributing their own versions of whatever I upload to the workshop.
 > It is there for everyone to use.
@@ -72,7 +72,7 @@ I am happy to keep it like KiloSwiss said it himself:
 > The only thing I ask for is that people give credit to the original author and carry over existing entries that credit other people in the original work. 
 
 That said, the only one thing I'd like to add is the following:
-Any improvements to help with some bugs, new features or others, I'd kindly ask to add them to this repsoitory as well, so this scenario can grow and everyone can enjoy.
+Any improvements to help with some bugs, new features and so on, I'd kindly ask to add them to this repsoitory as well, so this scenario can grow and everyone can the most refined version of it.
 
 
 
