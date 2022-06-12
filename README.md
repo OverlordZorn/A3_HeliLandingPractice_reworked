@@ -57,7 +57,7 @@ In case you hit a tree or end up in a powerline, dont worry - respawn is swift, 
 ## Feel Free to help!
 Since Im a novice with SQF and coding in general, im happy for everyone who wants to contribute.
 
-## Found a Problem with the Mission? Want to suggest a map to be ported or found a helicopter that isnt detected by the Virtual Vehicle Spawner Script? 
+## Found a Problem? Suggest a map? Add compat for a modded helicopter? 
 Create a new issue, select a template provide all needed information.
 
 ## Want to contribute directly?
@@ -66,10 +66,10 @@ Feel free to create a Pull Request with your changes.
 ## Sharing is Caring
 I am happy to keep it like KiloSwiss said it himself:
 
-    I don't mind other people using, modifying or even redistributing their own versions of whatever I upload to the workshop.
-    It is there for everyone to use.
-    Simply said: Sharing is caring.
-    The only thing I ask for is that people give credit to the original author and carry over existing entries that credit other people in the original work. 
+> I don't mind other people using, modifying or even redistributing their own versions of whatever I upload to the workshop.
+> It is there for everyone to use.
+> Simply said: Sharing is caring.
+> The only thing I ask for is that people give credit to the original author and carry over existing entries that credit other people in the original work. 
 
 That said, the only one thing I'd like to add is the following:
 Any improvements to help with some bugs, new features or others, I'd kindly ask to add them to this repsoitory as well, so this scenario can grow and everyone can enjoy.
