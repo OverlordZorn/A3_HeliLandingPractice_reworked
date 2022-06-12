@@ -5,6 +5,9 @@ Arma 3 - Helicopter Landing Practice Reworked, original by KiloSwiss - Ports to 
 
 Its a Helicopter Landing Practice. It provides a great way to get familiar with helicopters in arma 3, explore a new terrain or just chill out while listening to some good tunes or your favorite podcast.
 
+## Why the rework?
+The original author provided this concept only for Malden and Livonia, but there are many other great Islands in ArmA3 that would provide a great stage for this scenario. Also noticed that the Global Mobilisation Helicopters havent been detected by the Virtual Vehicle Spawner, therefore I wanted to create a compatibility for them.
+
 ## How does it Works?
 
 You start the mission, walk to the laptop infront of you, select the helicopter from the menu, it will spawn right in front of the Laptop.
@@ -54,14 +57,12 @@ In case you hit a tree or end up in a powerline, dont worry - respawn is swift, 
 - Under certain conditions, the helicopter gets immune to damage.
 - Custom placed locations doesnt seem to be detected in the VR Environment? Unsure if its just a bug
 
-## Feel Free to help!
-Since Im a novice with SQF and coding in general, im happy for everyone who wants to contribute.
-
 ## Found a Problem? Suggest a map? Add compat for a modded helicopter? 
 Create a new issue, select a template provide all needed information.
 
 ## Want to contribute directly?
 Feel free to create a Pull Request with your changes.
+I myself am a novice with SQF and coding in general, im happy for everyone who wants to contribute.
 
 ## Sharing is Caring
 I am happy to keep it like KiloSwiss said it himself:
