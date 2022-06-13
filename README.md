@@ -61,6 +61,7 @@ Create a new issue, select a template provide all needed information.
 - Under certain conditions, the helicopter gets immune to damage.
 - Custom placed locations doesnt seem to be detected in the VR Environment? Unsure if its just a bug
 - Sometimes it can take an extended time for the scripts to find a suitable new safe LandingZone
+- Steam/ArmA3 added the Multiplayer Tag to the Workshop Items by itself and i cant remove it - Multiplayer is not tested!!!
 
 ### Want to contribute directly?
 Feel free to create a Pull Request with your changes.
