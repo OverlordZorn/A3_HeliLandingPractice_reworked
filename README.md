@@ -21,6 +21,8 @@ In case you hit a tree or end up in a powerline, dont worry - respawn is swift, 
 
 
 ## Ported Scenarios
+ 
+All released Scenarios on the Workshop can be found in this [Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=2820418420)
 
 ### Official Terrains
 - Altis
