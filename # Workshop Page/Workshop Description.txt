@@ -1,0 +1,55 @@
+Guides:
+https://steamcommunity.com/sharedfiles/filedetails/?id=786566006
+
+
+
+Image Sizes:
+800x800 for Project Image
+768x192 for Main Image / Head Banner
+
+
+
+Resources:
+
+https://i.imgur.com/8ckolcm.png
+Click to Support my Missions
+
+https://steamuserimages-a.akamaihd.net/ugc/471016511618349287/1539C3DC429AA8ABF227C3868D6848D89E0802BD/
+White Glowy Line
+
+
+https://badgen.net/badge/icon/github?icon=github&label
+
+
+#########
+
+[h1]Heli Landing Practice Reworked - Scottish Highlands[/h1]
+
+A great way to get familiar and excercise with helicopters in Arma 3, explore a new terrain or just chill out while listening to some good tunes or your favorite podcast.
+
+
+[h2]Rework[/h2]
+Originally, this concept only released for Malden and Livonia, but there are many other great terrains in Arma 3, also the GlobMob DLC Helis havent been detected, defore I decided to start this Rework Project.
+
+
+[h1]How Does it work?[/h1]
+Start the Mission, select a Heli via the Laptop and you're ready to go!
+
+Once in the Helicopter, request a new LZ. Land as close as possible. Repeat.
+Tree? Power Line? Dont worry! Respawn is swift and the helicopter will be already waiting for you!
+
+[h1]Ported Terrains[/h1]
+All ported Terrains can be found here:
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2820418420]Helicopter Landing Practice - Rework Collection[/url]
+
+[h2]Original Scenario[/h2]
+made by [url=https://steamcommunity.com/id/kiloswiss]KiloSwiss[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1984807345]Heli Landing Practice - Malden 2035[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1962268953]Heli Landing Practice - Livonia[/url]
+
+
+[h1]Contribute![/h1]
+Bugreport? Terrain Request? Mod Incompatibility? 
+Head to the [url=https://github.com/PulsarNeutronStar/A3_HeliLandingPractice_reworked]github repository[/url]!
+
+[IMG]https://i.imgur.com/8ckolcm.png[/IMG]

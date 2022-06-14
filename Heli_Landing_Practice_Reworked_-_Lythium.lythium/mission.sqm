@@ -5,25 +5,25 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1025;
+	toggles=1;
 	class ItemIDProvider
 	{
 		nextID=123;
 	};
 	class LayerIndexProvider
 	{
-		nextID=26;
+		nextID=39;
 	};
 	class Camera
 	{
-		pos[]={11820.608,50.693794,2255.6929};
-		dir[]={-0.14243935,-0.53561318,0.83236384};
-		up[]={-0.09034422,0.84446347,0.52793878};
-		aside[]={0.98567188,7.4505806e-009,0.16867438};
+		pos[]={11802.02,187.51535,2118.8594};
+		dir[]={0.1485769,-0.34870049,0.92538255};
+		up[]={0.055278432,0.93723422,0.34429106};
+		aside[]={0.9873547,0,-0.15852697};
 	};
 };
 binarizationWanted=0;
-sourceName="Heli_Landing_Practice_-_Lythium";
+sourceName="Heli_Landing_Practice_Reworked_-_Lythium";
 addons[]=
 {
 	"A3_Structures_F_Tank_Military_RepairDepot",
@@ -164,19 +164,21 @@ class Mission
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
+		startWeather=0.49155986;
+		startFog=0.065626301;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0.30000001;
+		forecastWeather=0;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		year=2015;
 		month=10;
 		day=6;
-		hour=12;
-		minute=0;
-		startFogDecay=0.013;
+		hour=6;
+		minute=-3;
+		startFogBase=85;
+		startFogDecay=0.06300351;
 		forecastFogDecay=0.013;
 	};
 	class Entities
@@ -4644,7 +4646,7 @@ class Mission
 							fillName="SolidBorder";
 							a=5;
 							b=15;
-							angle=130.8985;
+							angle=0.026053753;
 							drawBorder=1;
 							id=99;
 						};
@@ -4893,7 +4895,7 @@ class Mission
 							};
 							id=117;
 							type="Land_HelipadCivil_F";
-							atlOffset=0.69483948;
+							atlOffset=0.69482231;
 						};
 						class Item9
 						{
@@ -4901,7 +4903,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={11925.946,24.000719,2444.1909};
-								angles[]={0.00034526698,6.2750249,-0};
+								angles[]={0.00034526698,6.2750249,0};
 							};
 							side="Empty";
 							flags=4;
@@ -4944,7 +4946,7 @@ class Mission
 							};
 							id=120;
 							type="Land_HelipadCircle_F";
-							atlOffset=1.9073486e-006;
+							atlOffset=5.7220459e-006;
 						};
 						class Item12
 						{
