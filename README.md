@@ -6,7 +6,7 @@ Arma 3 - Helicopter Landing Practice Reworked, original by KiloSwiss - Ports to 
 Its a Helicopter Landing Practice. It provides a great way to get familiar with helicopters in Arma 3, explore a new terrain or just chill out while listening to some good tunes or your favorite podcast.
 
 ### Why the rework?
-Originally,  this concept only released for Malden and Livonia, but there are many other great terrains in Arma 3. Also noticed that the Global Mobilisation Helicopters havent been detected by the Virtual Vehicle Spawner, therefore I added them to the VVS as well.
+Originally, this concept only released for Malden and Livonia, but there are many other great terrains in Arma 3. In additionl, the GlobMob DLC Helis havent been detected, defore I decided to start this Rework Project.
 
 ## How does it works?
 
