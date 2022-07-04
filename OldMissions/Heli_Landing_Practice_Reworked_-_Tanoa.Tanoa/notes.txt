@@ -1,0 +1,27 @@
+HeliSpawn composition
+
+heliSpawnTable_0 attachTo [heliSpawnBase_0, [-0.5,-2.45,4.17]];
+
+heliSpawnLaptop_0 attachTo [heliSpawnTable_0, [0,-0.1,0.58]];
+
+heliSpawnTable_0 setDir (getDir heliSpawnBase_0)-45;
+
+heliSpawnLaptop_0 setDir (getDir heliSpawnTable_0)+135;
+
+
+Items:
+heliSpawnBase_0
+heliSpawnTable_0
+heliSpawnLaptop_0
+heliSpawn_marker_0 (placed on heliSpawnPlatform_0)
+
+
+Table init:
+heliSpawnTable_0 attachTo [heliSpawnBase_0, [-0.5,-2.45,4.17]];
+heliSpawnTable_0 setDir (getDir heliSpawnBase_0)-45;
+
+Laptop init:
+this setObjectTexture [1, "\a3\ui_f\data\IGUI\Cfg\simpleTasks\types\heli_ca.paa"];
+this addAction["Virtual Heli Spawner",VVS_fnc_openVVS,["heliSpawnMarker_0","Air"]];
+heliSpawnLaptop_0 attachTo [heliSpawnTable_0, [0,-0.1,0.58]];
+heliSpawnLaptop_0 setDir (getDir heliSpawnTable_0)+135;

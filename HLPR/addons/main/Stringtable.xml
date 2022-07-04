@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HLPR">
+  <Package name="HLPR">
+    <Container name="generic">
+      <Key ID="STR_HLPR_generic_example">
+        <Original>A example string table entry</Original>
+        <French>this would be the same text but in fench</French>
+      </Key>
+    </Container>
+  </Package>
+</Project>
