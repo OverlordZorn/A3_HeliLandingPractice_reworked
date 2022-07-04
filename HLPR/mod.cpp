@@ -1,0 +1,11 @@
+name = "Helicopter landing practice reworked";
+author = "PulsarNeutronStar, Håkon, KiloSwiss";
+logo = "";
+logoOver = "";
+logoSmall = "";
+picture = "";
+description = "";
+tooltip = "Helicopter landing practice reworked";
+overview = "";
+actionName = "GitHub";
+action = "https://github.com/";

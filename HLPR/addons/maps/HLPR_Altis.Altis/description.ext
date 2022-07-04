@@ -1,0 +1,11 @@
+author = $STR_HLPR_generic_Author;
+onLoadName = $STR_HLPR_generic_onLoadName;
+onLoadMission = $STR_HLPR_generic_onLoadMission;
+loadScreen = "x\HLPR\addons\main\icons\loadScreenEnoch.jpg";
+//allowFunctionsRecompile = 1;
+enableDebugConsole = 2;
+disabledAI = true;
+class Header
+{
+	gameType = Sandbox; // MP mission type
+};

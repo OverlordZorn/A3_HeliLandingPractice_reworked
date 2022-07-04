@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="HLPR">
+    <Package name="HLPR">
+        <Container name="generic">
+            <Key ID="STR_HLPR_generic_onLoadName">
+                <Original>Heli Landing Practice</Original>
+            </Key>
+            <Key ID="STR_HLPR_generic_onLoadMission">
+                <Original>A simple mission to practice helicopter combat landings at random destinations across the map.</Original>
+            </Key>
+            <Key ID="STR_HLPR_generic_Author">
+                <Original>KiloSwiss</Original>
+            </Key>
+        </Container>
+
+        <Container name="map">
+            <Key ID="STR_HLPR_map_Altis_brifingName">
+                <Original>HLPR Altis</Original>
+            </Key>
+        </Container>
+    </Package>
+</Project>
