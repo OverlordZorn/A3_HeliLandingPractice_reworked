@@ -8,4 +8,4 @@ description = "";
 tooltip = "Helicopter landing practice reworked";
 overview = "";
 actionName = "GitHub";
-action = "https://github.com/";
+action = "https://github.com/PulsarNeutronStar/A3_HeliLandingPractice_reworked";
